@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1314131E1F629F8B00504163 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1314131D1F629F8B00504163 /* ContainerViewController.swift */; };
+		131413201F62A02300504163 /* SidePanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1314131F1F62A02300504163 /* SidePanelViewController.swift */; };
 		1362EB681F348649007AF0EC /* Dumbo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1362EB671F348649007AF0EC /* Dumbo.storyboard */; };
+		137314581F5D3B4900535B15 /* storyPzData.json in Resources */ = {isa = PBXBuildFile; fileRef = 137314571F5D3B4800535B15 /* storyPzData.json */; };
+		1373145A1F5D63B600535B15 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137314591F5D63B600535B15 /* testViewController.swift */; };
+		1373145F1F5D767300535B15 /* roboto_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1373145E1F5D767300535B15 /* roboto_light.ttf */; };
+		137314651F5D839800535B15 /* MysteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137314641F5D839800535B15 /* MysteryViewController.swift */; };
+		137314671F5D83BA00535B15 /* Mystery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137314661F5D83BA00535B15 /* Mystery.storyboard */; };
 		13A07FB51F582D3400F88203 /* SimpleWordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A07FB41F582D3400F88203 /* SimpleWordCell.swift */; };
 		13A07FB71F582F7A00F88203 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A07FB61F582F7A00F88203 /* FoldingCell.swift */; };
 		13A07FB91F583C2800F88203 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A07FB81F583C2800F88203 /* MainTableViewController.swift */; };
@@ -27,6 +34,7 @@
 		13CD6CB51F49AF0400B457D3 /* HomeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD6CB41F49AF0400B457D3 /* HomeItemCell.swift */; };
 		13CD6CB71F49AF3100B457D3 /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD6CB61F49AF3100B457D3 /* HomeItem.swift */; };
 		13CD6CB91F49B01F00B457D3 /* TipInCellAnimatorStartTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD6CB81F49B01F00B457D3 /* TipInCellAnimatorStartTransform.swift */; };
+		13DE5C931F5DC38A003BB8D4 /* HintAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DE5C921F5DC38A003BB8D4 /* HintAnswerViewController.swift */; };
 		13FEAAF81F557A96003CF41A /* home_item_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 13FEAAF71F557A95003CF41A /* home_item_list.json */; };
 		13FEAAFB1F557EC8003CF41A /* SimpleWordPuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FEAAFA1F557EC8003CF41A /* SimpleWordPuzzleViewController.swift */; };
 		13FEAAFD1F557F21003CF41A /* funnyPzData.json in Resources */ = {isa = PBXBuildFile; fileRef = 13FEAAFC1F557F21003CF41A /* funnyPzData.json */; };
@@ -52,7 +60,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1314131D1F629F8B00504163 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		1314131F1F62A02300504163 /* SidePanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelViewController.swift; sourceTree = "<group>"; };
 		1362EB671F348649007AF0EC /* Dumbo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dumbo.storyboard; sourceTree = "<group>"; };
+		137314571F5D3B4800535B15 /* storyPzData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = storyPzData.json; sourceTree = "<group>"; };
+		137314591F5D63B600535B15 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		1373145E1F5D767300535B15 /* roboto_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = roboto_light.ttf; sourceTree = "<group>"; };
+		137314641F5D839800535B15 /* MysteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteryViewController.swift; sourceTree = "<group>"; };
+		137314661F5D83BA00535B15 /* Mystery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mystery.storyboard; sourceTree = "<group>"; };
 		13A07FB41F582D3400F88203 /* SimpleWordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWordCell.swift; sourceTree = "<group>"; };
 		13A07FB61F582F7A00F88203 /* FoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
 		13A07FB81F583C2800F88203 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +93,7 @@
 		13CD6CB41F49AF0400B457D3 /* HomeItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeItemCell.swift; sourceTree = "<group>"; };
 		13CD6CB61F49AF3100B457D3 /* HomeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
 		13CD6CB81F49B01F00B457D3 /* TipInCellAnimatorStartTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipInCellAnimatorStartTransform.swift; sourceTree = "<group>"; };
+		13DE5C921F5DC38A003BB8D4 /* HintAnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintAnswerViewController.swift; sourceTree = "<group>"; };
 		13FEAAF71F557A95003CF41A /* home_item_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home_item_list.json; sourceTree = "<group>"; };
 		13FEAAFA1F557EC8003CF41A /* SimpleWordPuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWordPuzzleViewController.swift; sourceTree = "<group>"; };
 		13FEAAFC1F557F21003CF41A /* funnyPzData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = funnyPzData.json; sourceTree = "<group>"; };
@@ -117,6 +133,26 @@
 			name = RollDice;
 			sourceTree = "<group>";
 		};
+		1373145B1F5D736C00535B15 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1373145E1F5D767300535B15 /* roboto_light.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		137314611F5D834D00535B15 /* Mystery */ = {
+			isa = PBXGroup;
+			children = (
+				137314641F5D839800535B15 /* MysteryViewController.swift */,
+				137314661F5D83BA00535B15 /* Mystery.storyboard */,
+				13DE5C921F5DC38A003BB8D4 /* HintAnswerViewController.swift */,
+				1314131D1F629F8B00504163 /* ContainerViewController.swift */,
+				1314131F1F62A02300504163 /* SidePanelViewController.swift */,
+			);
+			name = Mystery;
+			sourceTree = "<group>";
+		};
 		13B56EE11F337DE60007036C /* Setup FIles */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +190,7 @@
 			children = (
 				13FEAAFC1F557F21003CF41A /* funnyPzData.json */,
 				13FEAAF71F557A95003CF41A /* home_item_list.json */,
+				137314571F5D3B4800535B15 /* storyPzData.json */,
 			);
 			name = JsonFiles;
 			sourceTree = "<group>";
@@ -164,6 +201,7 @@
 				13B56EF01F338CC40007036C /* DumboViewController.swift */,
 				13B56EF21F338CDF0007036C /* DumboBodyView.swift */,
 				1362EB671F348649007AF0EC /* Dumbo.storyboard */,
+				137314591F5D63B600535B15 /* testViewController.swift */,
 			);
 			name = Dumbo;
 			sourceTree = "<group>";
@@ -199,6 +237,8 @@
 		13C9B74B1F3378F700FC896C /* M Puzzled */ = {
 			isa = PBXGroup;
 			children = (
+				137314611F5D834D00535B15 /* Mystery */,
+				1373145B1F5D736C00535B15 /* Font */,
 				13FEAAF91F557E92003CF41A /* WordGame */,
 				13B9E1F01F4C56960072DB19 /* PathSeletorProblem */,
 				13533B321F3C94BD00027C5D /* RollDice */,
@@ -353,11 +393,14 @@
 			files = (
 				13C9B75A1F3378F700FC896C /* LaunchScreen.storyboard in Resources */,
 				1362EB681F348649007AF0EC /* Dumbo.storyboard in Resources */,
+				137314671F5D83BA00535B15 /* Mystery.storyboard in Resources */,
 				13C9B7571F3378F700FC896C /* Assets.xcassets in Resources */,
 				13FEAAF81F557A96003CF41A /* home_item_list.json in Resources */,
 				13FEAAFD1F557F21003CF41A /* funnyPzData.json in Resources */,
+				137314581F5D3B4900535B15 /* storyPzData.json in Resources */,
 				13B56EE61F337EA50007036C /* Home.storyboard in Resources */,
 				13FEAB031F558142003CF41A /* TextPuzzle.storyboard in Resources */,
+				1373145F1F5D767300535B15 /* roboto_light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +425,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137314651F5D839800535B15 /* MysteryViewController.swift in Sources */,
 				13CD6CB51F49AF0400B457D3 /* HomeItemCell.swift in Sources */,
+				1314131E1F629F8B00504163 /* ContainerViewController.swift in Sources */,
 				13B9E1F21F4C56F00072DB19 /* CrossRiverProblem.swift in Sources */,
 				13CD6CB71F49AF3100B457D3 /* HomeItem.swift in Sources */,
 				13C9B74D1F3378F700FC896C /* AppDelegate.swift in Sources */,
@@ -390,12 +435,15 @@
 				13CD6CB91F49B01F00B457D3 /* TipInCellAnimatorStartTransform.swift in Sources */,
 				13B56EF11F338CC40007036C /* DumboViewController.swift in Sources */,
 				13C9B7551F3378F700FC896C /* M_Puzzled.xcdatamodeld in Sources */,
+				13DE5C931F5DC38A003BB8D4 /* HintAnswerViewController.swift in Sources */,
 				13A07FB51F582D3400F88203 /* SimpleWordCell.swift in Sources */,
 				13B56EE41F337E670007036C /* StartScreenViewController.swift in Sources */,
 				13B56EEB1F33832C0007036C /* CustomColors.swift in Sources */,
 				13B56EF31F338CDF0007036C /* DumboBodyView.swift in Sources */,
 				13A07FB71F582F7A00F88203 /* FoldingCell.swift in Sources */,
 				13FEAAFB1F557EC8003CF41A /* SimpleWordPuzzleViewController.swift in Sources */,
+				1373145A1F5D63B600535B15 /* testViewController.swift in Sources */,
+				131413201F62A02300504163 /* SidePanelViewController.swift in Sources */,
 				13FEAAFF1F557FA8003CF41A /* ReadDataFromJsonHandler.swift in Sources */,
 				13B56EE91F3380160007036C /* CustomizeExtensions.swift in Sources */,
 			);

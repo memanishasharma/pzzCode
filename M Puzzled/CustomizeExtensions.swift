@@ -28,3 +28,24 @@ extension UIColor {
 		)
 	}
 }
+
+extension UIView {
+	func dropShadow(){
+		self.layer.shadowColor = UIColor.black.cgColor
+		self.layer.shadowOpacity = 1
+		self.layer.shadowOffset = CGSize.zero
+		self.layer.shadowRadius = 3
+	}
+	
+	func drawBorder(){
+		self.layer.borderWidth = 2.0
+		self.layer.borderColor = UIColor.white.cgColor
+	}
+}
+
+extension UIImageView {
+	func drawTint(color:UIColor){
+		self.image = self.image?.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
+		self.tintColor = color
+	}
+}

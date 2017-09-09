@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13178.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Mystery View Controller-->
+        <scene sceneID="hgr-Pv-rzr">
+            <objects>
+                <viewController storyboardIdentifier="MysteryViewController" id="PTJ-f1-elm" customClass="MysteryViewController" customModule="M_Puzzled" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PnA-Jl-EYF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LQd-xn-2NG">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H4I-oz-iiK">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Px6-JI-A0H">
+                                        <rect key="frame" x="67" y="259" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Lb-G9-cRZ" userLabel="CustonNavBarView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_icon" translatesAutoresizingMaskIntoConstraints="NO" id="PjQ-qw-Tan">
+                                                <rect key="frame" x="345" y="8" width="20" height="32"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="20" id="HuH-HJ-HOE">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                                                    </constraint>
+                                                    <constraint firstAttribute="height" constant="32" id="u7K-3G-qCE"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="PjQ-qw-Tan" firstAttribute="centerY" secondItem="7Lb-G9-cRZ" secondAttribute="centerY" id="0ni-sJ-ntk"/>
+                                            <constraint firstAttribute="height" constant="48" id="Ok5-OL-IDc"/>
+                                            <constraint firstAttribute="trailing" secondItem="PjQ-qw-Tan" secondAttribute="trailing" constant="10" id="km9-sx-jrc"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dxb-8g-LmN">
+                                        <rect key="frame" x="10" y="58" width="355" height="579"/>
+                                        <subviews>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXb-6M-r0b">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="538"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sGy-nY-TJp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="538"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="250" text="QUESTION" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPi-5K-tiq">
+                                                                <rect key="frame" x="20" y="20" width="315" height="0.0"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9od-4u-Cvq">
+                                                                <rect key="frame" x="20" y="40" width="315" height="458"/>
+                                                                <string key="text">You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="749" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="688-06-k8n">
+                                                                <rect key="frame" x="20" y="518" width="315" height="0.0"/>
+                                                                <string key="text">You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?</string>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstItem="QPi-5K-tiq" firstAttribute="top" secondItem="sGy-nY-TJp" secondAttribute="top" constant="20" id="2sP-cq-gTE"/>
+                                                            <constraint firstItem="9od-4u-Cvq" firstAttribute="top" secondItem="QPi-5K-tiq" secondAttribute="bottom" constant="20" id="6ey-eL-SPw"/>
+                                                            <constraint firstItem="9od-4u-Cvq" firstAttribute="leading" secondItem="sGy-nY-TJp" secondAttribute="leading" constant="20" id="CWS-vY-nzx"/>
+                                                            <constraint firstAttribute="trailing" secondItem="QPi-5K-tiq" secondAttribute="trailing" constant="20" id="EVV-2T-Vmk"/>
+                                                            <constraint firstItem="QPi-5K-tiq" firstAttribute="leading" secondItem="sGy-nY-TJp" secondAttribute="leading" constant="20" id="Lnb-au-Bpf"/>
+                                                            <constraint firstAttribute="bottom" secondItem="688-06-k8n" secondAttribute="bottom" constant="20" id="MYc-HB-Vpx"/>
+                                                            <constraint firstAttribute="trailing" secondItem="9od-4u-Cvq" secondAttribute="trailing" constant="20" id="Mfm-vg-E44"/>
+                                                            <constraint firstItem="688-06-k8n" firstAttribute="leading" secondItem="sGy-nY-TJp" secondAttribute="leading" constant="20" id="hdv-gM-XtJ"/>
+                                                            <constraint firstItem="688-06-k8n" firstAttribute="top" secondItem="9od-4u-Cvq" secondAttribute="bottom" constant="20" id="xMR-P7-1PA"/>
+                                                            <constraint firstAttribute="trailing" secondItem="688-06-k8n" secondAttribute="trailing" constant="20" id="zLz-SK-Jx6"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="sGy-nY-TJp" firstAttribute="leading" secondItem="JXb-6M-r0b" secondAttribute="leading" id="KsD-02-K7u"/>
+                                                    <constraint firstAttribute="bottom" secondItem="sGy-nY-TJp" secondAttribute="bottom" id="NTE-B1-g9y"/>
+                                                    <constraint firstAttribute="trailing" secondItem="sGy-nY-TJp" secondAttribute="trailing" id="Rmm-ie-I7J"/>
+                                                    <constraint firstItem="sGy-nY-TJp" firstAttribute="centerY" secondItem="JXb-6M-r0b" secondAttribute="centerY" placeholder="YES" id="bfj-ET-azo"/>
+                                                    <constraint firstItem="sGy-nY-TJp" firstAttribute="top" secondItem="JXb-6M-r0b" secondAttribute="top" id="iay-0r-XdL"/>
+                                                    <constraint firstItem="sGy-nY-TJp" firstAttribute="centerX" secondItem="JXb-6M-r0b" secondAttribute="centerX" id="j8h-6x-Wuh"/>
+                                                </constraints>
+                                            </scrollView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WeD-EA-d04">
+                                                <rect key="frame" x="0.0" y="538" width="355" height="41"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="CLOSE" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGc-ez-lu3">
+                                                        <rect key="frame" x="20" y="10" width="315" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="AGc-ez-lu3" secondAttribute="bottom" constant="10" id="B7J-jI-7Rj"/>
+                                                    <constraint firstItem="AGc-ez-lu3" firstAttribute="leading" secondItem="WeD-EA-d04" secondAttribute="leading" constant="20" id="M37-Y3-RFi"/>
+                                                    <constraint firstItem="AGc-ez-lu3" firstAttribute="top" secondItem="WeD-EA-d04" secondAttribute="top" constant="10" id="Np2-KC-8xg"/>
+                                                    <constraint firstAttribute="trailing" secondItem="AGc-ez-lu3" secondAttribute="trailing" constant="20" id="dYQ-ht-eIc"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Jyg-yb-Uok" appends="YES" id="UVA-wy-IYn"/>
+                                                </connections>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="JXb-6M-r0b" secondAttribute="trailing" id="Gdy-QC-tju"/>
+                                            <constraint firstAttribute="trailing" secondItem="WeD-EA-d04" secondAttribute="trailing" id="KmI-t6-G7L"/>
+                                            <constraint firstItem="JXb-6M-r0b" firstAttribute="leading" secondItem="dxb-8g-LmN" secondAttribute="leading" id="R89-h7-M4g"/>
+                                            <constraint firstItem="WeD-EA-d04" firstAttribute="leading" secondItem="dxb-8g-LmN" secondAttribute="leading" id="YZg-77-xb4"/>
+                                            <constraint firstAttribute="bottom" secondItem="WeD-EA-d04" secondAttribute="bottom" id="ZHy-d1-XrF"/>
+                                            <constraint firstItem="JXb-6M-r0b" firstAttribute="top" secondItem="dxb-8g-LmN" secondAttribute="top" id="jON-pJ-ZzX"/>
+                                            <constraint firstItem="WeD-EA-d04" firstAttribute="top" secondItem="JXb-6M-r0b" secondAttribute="bottom" id="qA0-0P-4dU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dxb-8g-LmN" secondAttribute="trailing" constant="10" id="Bcq-xg-zqR"/>
+                                    <constraint firstItem="7Lb-G9-cRZ" firstAttribute="top" secondItem="LQd-xn-2NG" secondAttribute="top" id="Dcw-jz-zJO"/>
+                                    <constraint firstItem="H4I-oz-iiK" firstAttribute="top" secondItem="LQd-xn-2NG" secondAttribute="top" id="Dh3-Te-hfg"/>
+                                    <constraint firstAttribute="bottom" secondItem="H4I-oz-iiK" secondAttribute="bottom" id="X7Q-Ys-KZz"/>
+                                    <constraint firstItem="H4I-oz-iiK" firstAttribute="leading" secondItem="LQd-xn-2NG" secondAttribute="leading" id="aGW-yI-rOq"/>
+                                    <constraint firstAttribute="trailing" secondItem="H4I-oz-iiK" secondAttribute="trailing" id="anC-Bk-dJg"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Lb-G9-cRZ" secondAttribute="trailing" id="c5Z-vv-wrm"/>
+                                    <constraint firstItem="7Lb-G9-cRZ" firstAttribute="leading" secondItem="LQd-xn-2NG" secondAttribute="leading" id="iJW-yO-yTC"/>
+                                    <constraint firstItem="dxb-8g-LmN" firstAttribute="top" secondItem="7Lb-G9-cRZ" secondAttribute="bottom" constant="10" id="ooO-B2-l0s"/>
+                                    <constraint firstItem="dxb-8g-LmN" firstAttribute="leading" secondItem="LQd-xn-2NG" secondAttribute="leading" constant="10" id="yR6-jI-ygp"/>
+                                    <constraint firstAttribute="bottom" secondItem="dxb-8g-LmN" secondAttribute="bottom" constant="10" id="zEs-tz-0bm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jw6-TM-9FC" firstAttribute="bottom" secondItem="LQd-xn-2NG" secondAttribute="bottom" id="D6V-Em-4ir"/>
+                            <constraint firstItem="LQd-xn-2NG" firstAttribute="top" secondItem="jw6-TM-9FC" secondAttribute="top" id="Tej-7k-bLE"/>
+                            <constraint firstItem="LQd-xn-2NG" firstAttribute="leading" secondItem="jw6-TM-9FC" secondAttribute="leading" id="jaJ-S6-LEv"/>
+                            <constraint firstItem="jw6-TM-9FC" firstAttribute="trailing" secondItem="LQd-xn-2NG" secondAttribute="trailing" id="vLZ-cz-3iv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jw6-TM-9FC"/>
+                    </view>
+                    <connections>
+                        <outlet property="bgView" destination="H4I-oz-iiK" id="srx-wa-rEX"/>
+                        <outlet property="closeView" destination="WeD-EA-d04" id="DB5-IF-hEc"/>
+                        <outlet property="customNavBarView" destination="7Lb-G9-cRZ" id="G20-Q4-SdK"/>
+                        <outlet property="infoImageView" destination="PjQ-qw-Tan" id="BFR-au-IKU"/>
+                        <outlet property="mainContainerView" destination="dxb-8g-LmN" id="uo4-1Y-xxj"/>
+                        <outlet property="questionHeadingLabel" destination="QPi-5K-tiq" id="EC9-0b-Gbq"/>
+                        <outlet property="questionLabel" destination="9od-4u-Cvq" id="UKH-CA-TmG"/>
+                        <outlet property="scrollView" destination="JXb-6M-r0b" id="hLh-DG-ohd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NAW-vP-nzR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Jyg-yb-Uok">
+                    <connections>
+                        <action selector="closeDidClick:" destination="PTJ-f1-elm" id="00Y-us-qxT"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="263" y="-195"/>
+        </scene>
+        <!--Side Panel View Controller-->
+        <scene sceneID="2sM-ck-MA9">
+            <objects>
+                <viewController storyboardIdentifier="SidePanelViewController" id="NFG-MP-8gf" customClass="SidePanelViewController" customModule="M_Puzzled" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ya6-ci-ggK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPy-eG-syu">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.28627452250000002" green="0.78823530669999997" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aPy-eG-syu" firstAttribute="top" secondItem="Z3z-fJ-Bgh" secondAttribute="top" id="69A-AF-SL1"/>
+                            <constraint firstItem="Z3z-fJ-Bgh" firstAttribute="bottom" secondItem="aPy-eG-syu" secondAttribute="bottom" id="8T4-kg-37w"/>
+                            <constraint firstItem="aPy-eG-syu" firstAttribute="leading" secondItem="Z3z-fJ-Bgh" secondAttribute="leading" id="PGV-1R-K9I"/>
+                            <constraint firstItem="Z3z-fJ-Bgh" firstAttribute="trailing" secondItem="aPy-eG-syu" secondAttribute="trailing" id="jga-5V-amH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Z3z-fJ-Bgh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0al-Bp-2Ro" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="-196"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="info_icon" width="16" height="16"/>
+    </resources>
+</document>

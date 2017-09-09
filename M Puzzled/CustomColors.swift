@@ -10,6 +10,32 @@ import UIKit
 
 extension UIColor {
 	struct FlatColor {
+		
+		struct materialColor{
+			static let Turquoise = UIColor(netHex: "1abc9c")
+			static let Emerland = UIColor(netHex: "2ecc71")
+			static let Peterriver = UIColor(netHex: "3498db")
+			static let Amethyst = UIColor(netHex: "9b59b6")
+			static let Wetasphalt = UIColor(netHex: "34495e")
+			static let GreenSea = UIColor(netHex: "16a085")
+			static let Nephritis = UIColor(netHex: "27ae60")
+			static let BelizeHole = UIColor(netHex: "2980b9")
+			static let Wisteria = UIColor(netHex: "8e44ad")
+			static let Midnightblue = UIColor(netHex: "2c3e50")
+			static let SunFlower = UIColor(netHex: "f1c40f")
+			static let Carrot = UIColor(netHex: "e67e22")
+			static let Alizarin = UIColor(netHex: "e74c3c")
+			static let Clouds = UIColor(netHex: "ecf0f1")
+			static let Concrete = UIColor(netHex: "95a5a6")
+			static let C1 = UIColor(netHex: "f39c12")
+			static let C2 = UIColor(netHex: "d35400")
+			static let C3 = UIColor(netHex: "c0392b")
+			static let C4 = UIColor(netHex: "bdc3c7")
+			static let C5 = UIColor(netHex: "7f8c8d")
+			static let C6 = UIColor(netHex: "00b294")
+			static let C7 = UIColor(netHex: "ff4343")
+			
+		}
 		struct Red{
 			
 		}

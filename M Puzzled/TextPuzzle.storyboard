@@ -128,77 +128,17 @@
                                             <action selector="closeDidTapped:" destination="lBZ-gA-cfj" eventType="touchUpInside" id="1kA-Jh-fXl"/>
                                         </connections>
                                     </button>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8By-BK-KgM">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yey-eN-Koi">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJB-4v-7X1">
-                                                        <rect key="frame" x="20" y="20" width="335" height="495"/>
-                                                        <string key="text">You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxv-Cc-bF5">
-                                                        <rect key="frame" x="20" y="535" width="335" height="21"/>
-                                                        <string key="text">You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ae-tg-xfs">
-                                                        <rect key="frame" x="20" y="576" width="335" height="21"/>
-                                                        <string key="text">You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?You have 10 boxes of balls (each ball weighing exactly10 gm) with one box with defective balls (each one of the defective balls weigh 9 gm). You are given an electronic weighing machine and only one chance at it. How will find out which box has the defective balls?</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="trailing" secondItem="Kxv-Cc-bF5" secondAttribute="trailing" constant="20" id="2Wc-9R-F0R"/>
-                                                    <constraint firstItem="Kxv-Cc-bF5" firstAttribute="leading" secondItem="Yey-eN-Koi" secondAttribute="leading" constant="20" id="8Ok-DK-VO3"/>
-                                                    <constraint firstItem="0ae-tg-xfs" firstAttribute="top" secondItem="Kxv-Cc-bF5" secondAttribute="bottom" constant="20" id="B4f-yV-VCb"/>
-                                                    <constraint firstItem="UJB-4v-7X1" firstAttribute="top" secondItem="Yey-eN-Koi" secondAttribute="top" constant="20" id="HBy-zq-i57"/>
-                                                    <constraint firstItem="UJB-4v-7X1" firstAttribute="leading" secondItem="Yey-eN-Koi" secondAttribute="leading" constant="20" id="ILq-n3-7za"/>
-                                                    <constraint firstItem="0ae-tg-xfs" firstAttribute="leading" secondItem="Yey-eN-Koi" secondAttribute="leading" constant="20" id="SMk-dL-03N"/>
-                                                    <constraint firstAttribute="trailing" secondItem="UJB-4v-7X1" secondAttribute="trailing" constant="20" id="SlJ-Va-qlz"/>
-                                                    <constraint firstItem="Kxv-Cc-bF5" firstAttribute="top" secondItem="UJB-4v-7X1" secondAttribute="bottom" constant="20" id="t9W-lm-JuL"/>
-                                                    <constraint firstAttribute="trailing" secondItem="0ae-tg-xfs" secondAttribute="trailing" constant="20" id="umW-EI-s5D"/>
-                                                    <constraint firstAttribute="bottom" secondItem="0ae-tg-xfs" secondAttribute="bottom" constant="20" id="yFQ-Dz-GjX"/>
-                                                </constraints>
-                                            </view>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="Yey-eN-Koi" firstAttribute="leading" secondItem="8By-BK-KgM" secondAttribute="leading" id="43s-io-eDs"/>
-                                            <constraint firstItem="Yey-eN-Koi" firstAttribute="centerX" secondItem="8By-BK-KgM" secondAttribute="centerX" id="arD-Qq-sbd"/>
-                                            <constraint firstAttribute="bottom" secondItem="Yey-eN-Koi" secondAttribute="bottom" id="gm4-Tg-2xG"/>
-                                            <constraint firstItem="Yey-eN-Koi" firstAttribute="top" secondItem="8By-BK-KgM" secondAttribute="top" id="kjv-8x-K5Y"/>
-                                            <constraint firstItem="Yey-eN-Koi" firstAttribute="centerY" secondItem="8By-BK-KgM" secondAttribute="centerY" placeholder="YES" id="pCh-aG-ht3"/>
-                                            <constraint firstAttribute="trailing" secondItem="Yey-eN-Koi" secondAttribute="trailing" id="sjo-5K-Nij"/>
-                                        </constraints>
-                                    </scrollView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="aQl-6F-YrR" firstAttribute="leading" secondItem="ej1-Bq-ZOi" secondAttribute="leading" id="3zH-05-MMr"/>
-                                    <constraint firstItem="8By-BK-KgM" firstAttribute="leading" secondItem="ej1-Bq-ZOi" secondAttribute="leading" id="7i1-Iq-C1Y"/>
                                     <constraint firstItem="gDX-Nz-aCK" firstAttribute="top" secondItem="aQl-6F-YrR" secondAttribute="bottom" id="TVz-OL-mvV"/>
                                     <constraint firstAttribute="trailing" secondItem="aQl-6F-YrR" secondAttribute="trailing" id="VoZ-zA-eVv"/>
                                     <constraint firstItem="gDX-Nz-aCK" firstAttribute="leading" secondItem="ej1-Bq-ZOi" secondAttribute="leading" constant="10" id="YE0-Sp-HKU"/>
                                     <constraint firstAttribute="trailing" secondItem="gDX-Nz-aCK" secondAttribute="trailing" constant="10" id="bMS-Hh-WmX"/>
                                     <constraint firstItem="aQl-6F-YrR" firstAttribute="top" secondItem="ej1-Bq-ZOi" secondAttribute="top" id="cea-An-LLL"/>
-                                    <constraint firstAttribute="trailing" secondItem="8By-BK-KgM" secondAttribute="trailing" id="fTb-ad-U7n"/>
-                                    <constraint firstItem="8By-BK-KgM" firstAttribute="top" secondItem="ej1-Bq-ZOi" secondAttribute="top" id="ggF-aP-tL3"/>
                                     <constraint firstAttribute="bottom" secondItem="gDX-Nz-aCK" secondAttribute="bottom" id="snR-AJ-AjB"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="8By-BK-KgM"/>
-                                    </mask>
-                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -221,7 +161,7 @@
         <!--Main Table View Controller-->
         <scene sceneID="4QG-W3-OLG">
             <objects>
-                <tableViewController storyboardIdentifier="MainTableViewController" id="j8O-zo-ThV" customClass="MainTableViewController" customModule="FoldingCell_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MainTableViewController" id="j8O-zo-ThV" customClass="MainTableViewController" customModule="M_Puzzled" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="667" sectionHeaderHeight="28" sectionFooterHeight="28" id="pbY-AA-cuD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="695"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
